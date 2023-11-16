@@ -32,5 +32,15 @@ print(f"{m1}\n{m2}")
 
 # Are m1 and m2 instances the same?
 
-print(m1==m2)
+print(m1==m2) # False
+# By default they are not because they are two different entities in memory
+# They are seperate objects just like two identical cars of Mercedes in real world
+# These are two objects of the same blueprint
+
+
+"""
+1. A class is a blueprint that represents a type of object
+2. Even the simplest class has attributes and behaviour
+3. Calling the class creates instances or objects of that class
+"""
 
