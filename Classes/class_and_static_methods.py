@@ -49,3 +49,25 @@ print(MercedesBenz.create_lease())
 
 # calling through he instance will also work fine
 print(m1.create_lease())
+
+
+"""
+The difference between class and static methods is class methods automatically
+receive the class as the first argument and so class methods could access and modify
+the class, state or behaviour on the fly. So they can be used to create behavior 
+that alters characteristics of the class itself at runtimr.
+
+Static functions are like regular functions but 
+they just happen to live within the namespace of the class. So they are kind of 
+bundled together with the class
+"""
+
+# SUMMARY
+
+"""
+1. In addition to instance methods, python has static and clas methods
+2. In class methods, the class is implicitly passed as the first argument, 
+whereas in static methods, neither the instance object nor the class is passed
+3. static methods are like regular functions that are grouped together with the
+ class namespace because they are somehow conceptually related to class
+"""
